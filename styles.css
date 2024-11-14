@@ -473,14 +473,15 @@ nav {
   display: inline-block;
   padding: 8px 10px;
   font-size: 1rem;
-  color: var(--text-dark);
+  color: var(--white);
+  background: var(--gradient);
   border-radius: 100%;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .footer__socials a:hover {
-  color: var(--white);
-  background: var(--gradient);
+  color: var(--text-dark);
+  background: var(--white);
 }
 
 @media (width > 540px) {
